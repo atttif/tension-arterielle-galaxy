@@ -1,4 +1,4 @@
-import { OvulationCalculator } from "@/components/OvulationCalculator";
+import { BloodPressureForm } from "@/components/BloodPressureForm";
 
 const Index = () => {
   return (
@@ -6,14 +6,14 @@ const Index = () => {
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Calculateur d'Ovulation
+            Évaluation de la Tension Artérielle
           </h1>
           <p className="text-lg text-gray-600">
-            Estimez vos périodes fertiles et dates d'ovulation
+            Entrez vos mesures pour obtenir une évaluation de votre tension artérielle
           </p>
         </div>
         
-        <OvulationCalculator />
+        <BloodPressureForm />
       </div>
     </div>
   );
